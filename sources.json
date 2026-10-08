@@ -1,0 +1,11 @@
+{
+  "version": "0.2.3",
+  "x86_64-linux": {
+    "url": "https://github.com/txhub-labs/txhub-releases/releases/download/v0.2.3/txhub-linux-amd64.tar.gz",
+    "hash": "sha256-Rp+MsgcU+5RIowKsKVDjmHeK+eS9PP1ualBjcHaroNw="
+  },
+  "aarch64-linux": {
+    "url": "https://github.com/txhub-labs/txhub-releases/releases/download/v0.2.3/txhub-linux-arm64.tar.gz",
+    "hash": "sha256-3UD0ioUefsCmwf93ZdKsl+GceRgOcKeFqM7DFoCAgBQ="
+  }
+}
