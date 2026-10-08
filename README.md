@@ -17,11 +17,18 @@ Installers for the TXHub client. Sign up and manage your txnet at [txhub.is](htt
 Each release includes a `SHA256SUMS` file for checking downloads. Beta builds
 are under [all releases](https://github.com/txhub-labs/txhub-releases/releases).
 
-## Install
+## Install and use
 
-- **Windows:** run the `.msi`.
-- **macOS:** open the `.dmg` and drag TXHub to Applications.
-- **Debian / Ubuntu:** `sudo apt install ./txhub-linux-amd64.deb`, then `sudo txhub up`.
-- **Fedora / RHEL:** `sudo dnf install ./txhub-linux-x86_64.rpm`, then `sudo txhub up`.
+- [Windows](docs/windows.md)
+- [macOS](docs/macos.md)
+- [Linux](docs/linux.md)
+- [Exit nodes](docs/exit-nodes.md): route your internet traffic through another device
+
+Quick start:
+
+- **Windows:** run the `.msi`, then click the TXHub tray icon → **Log in…**
+- **macOS:** open the `.dmg`, drag TXHub to Applications, open it → **Log in…**
+- **Debian / Ubuntu:** `sudo apt install ./txhub-linux-amd64.deb`, then `sudo txhub up`
+- **Fedora / RHEL:** `sudo dnf install ./txhub-linux-x86_64.rpm`, then `sudo txhub up`
 
 This repository only hosts release files.
