@@ -12,6 +12,9 @@ Installers for the TXHub client. Sign up and manage your txnet at [txhub.is](htt
 | Debian / Ubuntu (ARM64) | [txhub-linux-arm64.deb](https://github.com/txhub-labs/txhub-releases/releases/latest/download/txhub-linux-arm64.deb) |
 | Fedora / RHEL (x86-64) | [txhub-linux-x86_64.rpm](https://github.com/txhub-labs/txhub-releases/releases/latest/download/txhub-linux-x86_64.rpm) |
 | Fedora / RHEL (ARM64) | [txhub-linux-aarch64.rpm](https://github.com/txhub-labs/txhub-releases/releases/latest/download/txhub-linux-aarch64.rpm) |
+| NixOS (x86-64, ARM64) | [Nix flake](docs/nixos.md): `github:txhub-labs/txhub-releases` |
+| Linux binaries (x86-64) | [txhub-linux-amd64.tar.gz](https://github.com/txhub-labs/txhub-releases/releases/latest/download/txhub-linux-amd64.tar.gz) |
+| Linux binaries (ARM64) | [txhub-linux-arm64.tar.gz](https://github.com/txhub-labs/txhub-releases/releases/latest/download/txhub-linux-arm64.tar.gz) |
 | Windows Server (CLI only) | [txhub-server-windows-amd64.zip](https://github.com/txhub-labs/txhub-releases/releases/latest/download/txhub-server-windows-amd64.zip) |
 
 Each release includes a `SHA256SUMS` file for checking downloads. Beta builds
@@ -22,6 +25,7 @@ are under [all releases](https://github.com/txhub-labs/txhub-releases/releases).
 - [Windows](docs/windows.md)
 - [macOS](docs/macos.md)
 - [Linux](docs/linux.md)
+- [NixOS](docs/nixos.md)
 - [Exit nodes](docs/exit-nodes.md): route your internet traffic through another device
 
 Quick start:
@@ -30,5 +34,6 @@ Quick start:
 - **macOS:** open the `.dmg`, drag TXHub to Applications, open it → **Log in…**
 - **Debian / Ubuntu:** `sudo apt install ./txhub-linux-amd64.deb`, then `sudo txhub up`
 - **Fedora / RHEL:** `sudo dnf install ./txhub-linux-x86_64.rpm`, then `sudo txhub up`
+- **NixOS:** add the flake, set `services.txhub.enable = true;`, rebuild, then `sudo txhub up`
 
-This repository only hosts release files.
+This repository only hosts release files and the NixOS flake.
