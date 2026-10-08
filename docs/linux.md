@@ -34,7 +34,7 @@ For servers, sign in unattended with an auth key from the dashboard
 (**Settings → Auth keys**):
 
 ```sh
-sudo txhub up --authkey=tskey-...
+sudo txhub up --authkey=<auth-key>
 ```
 
 ## Everyday use
