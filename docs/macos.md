@@ -38,13 +38,13 @@ Works on Apple Silicon and Intel Macs.
 The CLI is inside the app:
 
 ```sh
-/Applications/TXHub.app/Contents/Helpers/txhub --socket=/var/run/txhubd.sock status
+/Applications/TXHub.app/Contents/Helpers/txhub status
 ```
 
 Tip: add an alias to your shell profile:
 
 ```sh
-alias txhub='/Applications/TXHub.app/Contents/Helpers/txhub --socket=/var/run/txhubd.sock'
+alias txhub='/Applications/TXHub.app/Contents/Helpers/txhub'
 ```
 
 ## Uninstall

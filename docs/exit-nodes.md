@@ -27,7 +27,7 @@ Or from the command line:
   ```
 - macOS:
   ```sh
-  /Applications/TXHub.app/Contents/Helpers/txhub --socket=/var/run/txhubd.sock set --advertise-exit-node
+  /Applications/TXHub.app/Contents/Helpers/txhub set --advertise-exit-node
   ```
 
 The device has to stay awake and online for others to use it. Turn off sleep on
