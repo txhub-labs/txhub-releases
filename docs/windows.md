@@ -3,10 +3,10 @@
 ## Install
 
 1. Download [TXHub-windows-amd64.msi](https://github.com/txhub-labs/txhub-releases/releases/latest/download/TXHub-windows-amd64.msi) and run it.
-   The builds aren't code-signed yet, so SmartScreen may show "Windows protected
-   your PC". Click **More info → Run anyway**.
-2. The installer adds the TXHub background service and starts the tray app. The
-   TXHub icon appears in the notification area. If you don't see it, check the **^** overflow.
+2. The installer adds the TXHub background service. On the last screen, leave
+   **Launch TXHub** ticked and click **Finish**: TXHub opens next to the clock so
+   you can log in. The TXHub icon stays in the notification area. If you don't
+   see it, check the **^** overflow.
 
 ## Sign in
 
