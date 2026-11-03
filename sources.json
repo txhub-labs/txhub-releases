@@ -1,11 +1,11 @@
 {
-  "version": "0.2.13",
+  "version": "0.2.14",
   "x86_64-linux": {
-    "url": "https://github.com/txhub-labs/txhub-releases/releases/download/v0.2.13/txhub-linux-amd64.tar.gz",
-    "hash": "sha256-giWV0nblmUexd8c0x78hJCEe8bAKWqsoM7b9n0RYMFk="
+    "url": "https://github.com/txhub-labs/txhub-releases/releases/download/v0.2.14/txhub-linux-amd64.tar.gz",
+    "hash": "sha256-DTQs9wwJNeBQI01Cfk0GBdo/ppo7TXrxd0mlP9oekyc="
   },
   "aarch64-linux": {
-    "url": "https://github.com/txhub-labs/txhub-releases/releases/download/v0.2.13/txhub-linux-arm64.tar.gz",
-    "hash": "sha256-giqF8stC9UFciJQK5smAAcv6GFXvKra5ZoWi+ERj55U="
+    "url": "https://github.com/txhub-labs/txhub-releases/releases/download/v0.2.14/txhub-linux-arm64.tar.gz",
+    "hash": "sha256-as3mAF+CZXZIgC7oTfrjuuFi0lC+IuUgIDiwVLWyUVc="
   }
 }
